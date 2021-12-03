@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+//INICIO
+header{
+    .header__banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding:1em;
+        background-color: rgb(21, 49, 43);
+        &--img{
+            width: 130px;
+            height: 130px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &--registro{
+            text-decoration: none;
+            color: white; 
+            font-family:'Quicksand', sans-serif;
+            font-weight: 900;
+            background-color: rgba(255, 255, 255, 0.13);
+            padding:0.2em;
+            transition: 1s all ease-in-out;
+        }
+        &--registro:hover{
+            background-color: rgb(217, 154, 92);
+        }
+    }
+}
+main{
+    background-image: url(../Multimedia/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-bottom: 1em;
+    h1{
+        margin:0;
+    }
+    h3{
+        color: rgba(255, 255, 255, 0.418);
+        margin: 0px;
+        padding: 10px;
+        background-color: rgb(30, 62, 63);
+        font-size: 1.1em;
+    }
+    .seccionVideo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        &__contenedor{
+            width: 650px;
+            height: 360px;
+            &--video{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .carruselEstilo{
+        margin: 0 1.1em;
+    }
+}
+footer{
+    padding: 1em;
+    margin:0;
+    background-color: rgb(30, 36, 34);
+    .footerSecciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        flex-wrap: wrap;
+        &__logo{
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 0 1em;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__menu{
+            color:rgba(255, 255, 255, 0.664);
+            text-align: center;
+            margin: 0 1em;
+            ul{
+                padding-left:0rem;
+                li{
+                    list-style: none;
+                }
+            }
+            .footerTitulo{
+                font-weight: 900;
+                color: white;
+                
+            }
+        }  
+        &__redes{
+            color:rgba(255, 255, 255, 0.664);
+            margin: 0 2em;
+
+            ul{
+                padding-left:0rem;
+                li{
+                    list-style: none;
+                    margin: 10px 0;
+                    a{
+                        text-decoration: none;
+                        color:white;
+                        padding: 5px 10px;
+                        background-color: rgba(255, 255, 255, 0.233);
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        transition: 1s all ease-in-out;
+                        img{
+                            height: 100%;
+                            width: auto;
+                        }
+                    }
+                    a:hover{
+                        background-color: rgb(217, 154, 92);
+                    }
+                }
+                .footerTitulo{
+                    font-weight: 900;
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }      
+    }
+}
+
+//SECCION BICICLETAS HTML
+
+main{
+    .seccionBicicletas{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__contenedor{
+            margin: 1em;
+            background-color: rgba(4, 55, 58, 0.664);
+            padding:0.5em;
+            width:300px;
+            &--img{
+                width: 280px;
+                height: 280px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &--texto{
+                font-family: 'Quicksand', sans-serif;
+                color: white;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            &--boton{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    color: white;
+                }
+                .botonEstilo{
+                    border: none;
+                    padding: 10px 25px;
+                    text-transform: uppercase;
+                    background-color: rgb(120, 170, 154);
+                    cursor: pointer;
+                }
+                .botonEstilo:hover{
+                    background-color: rgb(217, 154, 92); 
+                    color:white; 
+                }
+            }
+        }
+    }
+}
+
+//ROPA HTML
+main{
+.seccionRopa{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__contenedor{
+            margin: 1em;
+            background-color: rgba(4, 55, 58, 0.664);
+            padding:0.5em;
+            width:300px;
+            &--img{
+                width: 280px;
+                height: 280px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &--texto{
+                font-family: 'Quicksand', sans-serif;
+                color: white;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            &--boton{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    color: white;
+                }
+                .botonEstilo{
+                    border: none;
+                    padding: 10px 25px;
+                    text-transform: uppercase;
+                    background-color: rgb(120, 170, 154);
+                    cursor: pointer;
+                }
+                .botonEstilo:hover{
+                    background-color: rgb(217, 154, 92); 
+                    color:white; 
+                }
+            }
+        }
+    }
+}
+
+//BLOG HTML
+
+.mainBlog{
+    padding-top:1em;
+    .imagenesBlog{
+        width: 60%;
+        margin: 1em auto;
+    }
+    .subMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(21, 97, 74);
+            color: rgb(255, 195, 31);
+            width: 100%;
+        }
+    }
+    .seccionBlog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .seccionBlogContenedor{
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            padding: 1em;
+            align-items: center;
+            &__cuerpo{
+                display: flex;
+                flex-direction: column;
+                background-color: #509b83b6;
+                padding:1em;
+                &--img{
+                    width: 100%;
+                    height: auto;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//USUARIO HTML
+.mainFormulario{
+    padding-bottom:0;
+    .seccionFormulario{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5em;
+        width:auto;
+        height: auto;
+        &__img{
+            width: 150px;
+            height: 150px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .formulario{
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            &__usuario{
+                width: 100%;
+                margin: 10px 0;
+                text-transform: uppercase;
+            }
+            &__ingresar{
+                width: 100%;
+                margin: 10px 0;
+                padding: 0.2em;
+            }
+            &__password{
+                width: 100%;
+                margin: 10px 0;
+                text-transform: uppercase;
+            }
+            &__ingresarPassword{
+                width: 100%;
+                margin: 10px 0;
+                padding: 0.2em;     
+            }
+            &__recuerdame{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                p{
+                    margin-bottom: 0px;
+                    margin-left: 10px;
+                }
+            }
+            &__botones{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                #enviar{
+                    width: 100px;
+                    margin: 5px;
+                    padding: 5px 10px;
+                    text-transform: uppercase;
+                    background-color: rgba(22, 129, 93, 0.705);
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+                #enviar:hover{
+                    background-color: rgba(22, 129, 93, 0.815);
+                }
+                #borrar{
+                    width: 100px;
+                    margin: 5px;
+                    padding: 5px 10px; 
+                    text-transform: uppercase;
+                    background-color: rgba(211, 89, 68, 0.733); 
+                    color: white;
+                    border: none;
+                    cursor: pointer;                 
+                }
+                #borrar:hover{
+                    background-color:rgba(211, 89, 68, 0.966);;
+                }
+            }    
+        }
+    }
+}
+//Boton Subir
+.botonSubir{
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:black;
+    border-radius:50%;
+    bottom:40px;
+    left:40px;
+    text-decoration:none;
+    .btnSubir{
+        color:white;
+    }
+}

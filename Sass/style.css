@@ -1,0 +1,640 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header .header__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  background-color: #15312b;
+}
+
+header .header__banner--img {
+  width: 130px;
+  height: 130px;
+}
+
+header .header__banner--img img {
+  width: 100%;
+  height: 100%;
+}
+
+header .header__banner--registro {
+  text-decoration: none;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 0.2em;
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+header .header__banner--registro:hover {
+  background-color: #d99a5c;
+}
+
+main {
+  background-image: url(../Multimedia/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 1em;
+}
+
+main h1 {
+  margin: 0;
+}
+
+main h3 {
+  color: rgba(255, 255, 255, 0.418);
+  margin: 0px;
+  padding: 10px;
+  background-color: #1e3e3f;
+  font-size: 1.1em;
+}
+
+main .seccionVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+}
+
+main .seccionVideo__contenedor {
+  width: 650px;
+  height: 360px;
+}
+
+main .seccionVideo__contenedor--video {
+  width: 100%;
+  height: 100%;
+}
+
+main .carruselEstilo {
+  margin: 0 1.1em;
+}
+
+footer {
+  padding: 1em;
+  margin: 0;
+  background-color: #1e2422;
+}
+
+footer .footerSecciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footerSecciones__logo {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 1em;
+}
+
+footer .footerSecciones__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .footerSecciones__menu {
+  color: rgba(255, 255, 255, 0.664);
+  text-align: center;
+  margin: 0 1em;
+}
+
+footer .footerSecciones__menu ul {
+  padding-left: 0rem;
+}
+
+footer .footerSecciones__menu ul li {
+  list-style: none;
+}
+
+footer .footerSecciones__menu .footerTitulo {
+  font-weight: 900;
+  color: white;
+}
+
+footer .footerSecciones__redes {
+  color: rgba(255, 255, 255, 0.664);
+  margin: 0 2em;
+}
+
+footer .footerSecciones__redes ul {
+  padding-left: 0rem;
+}
+
+footer .footerSecciones__redes ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+footer .footerSecciones__redes ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.233);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+footer .footerSecciones__redes ul li a img {
+  height: 100%;
+  width: auto;
+}
+
+footer .footerSecciones__redes ul li a:hover {
+  background-color: #d99a5c;
+}
+
+footer .footerSecciones__redes ul .footerTitulo {
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+
+main .seccionBicicletas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .seccionBicicletas__contenedor {
+  margin: 1em;
+  background-color: rgba(4, 55, 58, 0.664);
+  padding: 0.5em;
+  width: 300px;
+}
+
+main .seccionBicicletas__contenedor--img {
+  width: 280px;
+  height: 280px;
+}
+
+main .seccionBicicletas__contenedor--img img {
+  width: 100%;
+  height: 100%;
+}
+
+main .seccionBicicletas__contenedor--texto {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+main .seccionBicicletas__contenedor--boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .seccionBicicletas__contenedor--boton p {
+  color: white;
+}
+
+main .seccionBicicletas__contenedor--boton .botonEstilo {
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  background-color: #78aa9a;
+  cursor: pointer;
+}
+
+main .seccionBicicletas__contenedor--boton .botonEstilo:hover {
+  background-color: #d99a5c;
+  color: white;
+}
+
+main .seccionRopa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .seccionRopa__contenedor {
+  margin: 1em;
+  background-color: rgba(4, 55, 58, 0.664);
+  padding: 0.5em;
+  width: 300px;
+}
+
+main .seccionRopa__contenedor--img {
+  width: 280px;
+  height: 280px;
+}
+
+main .seccionRopa__contenedor--img img {
+  width: 100%;
+  height: 100%;
+}
+
+main .seccionRopa__contenedor--texto {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+main .seccionRopa__contenedor--boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .seccionRopa__contenedor--boton p {
+  color: white;
+}
+
+main .seccionRopa__contenedor--boton .botonEstilo {
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  background-color: #78aa9a;
+  cursor: pointer;
+}
+
+main .seccionRopa__contenedor--boton .botonEstilo:hover {
+  background-color: #d99a5c;
+  color: white;
+}
+
+.mainBlog {
+  padding-top: 1em;
+}
+
+.mainBlog .imagenesBlog {
+  width: 60%;
+  margin: 1em auto;
+}
+
+.mainBlog .subMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainBlog .subMenu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #15614a;
+  color: #ffc31f;
+  width: 100%;
+}
+
+.mainBlog .seccionBlog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainBlog .seccionBlog .seccionBlogContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+  padding: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainBlog .seccionBlog .seccionBlogContenedor__cuerpo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #509b83b6;
+  padding: 1em;
+}
+
+.mainBlog .seccionBlog .seccionBlogContenedor__cuerpo--img {
+  width: 100%;
+  height: auto;
+}
+
+.mainBlog .seccionBlog .seccionBlogContenedor__cuerpo--img img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainFormulario {
+  padding-bottom: 0;
+}
+
+.mainFormulario .seccionFormulario {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em;
+  width: auto;
+  height: auto;
+}
+
+.mainFormulario .seccionFormulario__img {
+  width: 150px;
+  height: 150px;
+}
+
+.mainFormulario .seccionFormulario__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainFormulario .seccionFormulario .formulario {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainFormulario .seccionFormulario .formulario__usuario {
+  width: 100%;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.mainFormulario .seccionFormulario .formulario__ingresar {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0.2em;
+}
+
+.mainFormulario .seccionFormulario .formulario__password {
+  width: 100%;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.mainFormulario .seccionFormulario .formulario__ingresarPassword {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0.2em;
+}
+
+.mainFormulario .seccionFormulario .formulario__recuerdame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.mainFormulario .seccionFormulario .formulario__recuerdame p {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.mainFormulario .seccionFormulario .formulario__botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainFormulario .seccionFormulario .formulario__botones #enviar {
+  width: 100px;
+  margin: 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: rgba(22, 129, 93, 0.705);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mainFormulario .seccionFormulario .formulario__botones #enviar:hover {
+  background-color: rgba(22, 129, 93, 0.815);
+}
+
+.mainFormulario .seccionFormulario .formulario__botones #borrar {
+  width: 100px;
+  margin: 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: rgba(211, 89, 68, 0.733);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mainFormulario .seccionFormulario .formulario__botones #borrar:hover {
+  background-color: rgba(211, 89, 68, 0.966);
+}
+
+.botonSubir {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 40px;
+  left: 40px;
+  text-decoration: none;
+}
+
+.botonSubir .btnSubir {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .mainBlog .subMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 0.8em;
+  }
+  .mainBlog .subMenu a {
+    padding: 60px auto;
+  }
+  .mainBlog .subMenu a:hover {
+    background-color: #ffc31f;
+    color: white;
+    font-weight: 500;
+  }
+  .mainBlog .seccionBlog .seccionBlogContenedor__cuerpo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .mainBlog .seccionBlog .seccionBlogContenedor__cuerpo--texto {
+    width: 100%;
+    padding: 15px;
+  }
+  footer .footerSecciones {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer .footerSecciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=style.css.map */
