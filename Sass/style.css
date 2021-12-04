@@ -409,6 +409,13 @@ main .seccionRopa__contenedor--boton .botonEstilo:hover {
           align-items: center;
 }
 
+.mainBlog .seccionBlog .seccionBlogContenedor__titulo {
+  color: #ffc31f;
+  background-color: rgba(255, 255, 255, 0.63);
+  font-size: 25px;
+  padding: 20px 80px;
+}
+
 .mainBlog .seccionBlog .seccionBlogContenedor__cuerpo {
   display: -webkit-box;
   display: -ms-flexbox;
